@@ -18,7 +18,7 @@ def load_model():
 
 model = load_model()
 
-COLORS = {"negative": "blue", "positive": "red"}
+COLORS = {"negative": "red", "positive": "blue"}
 
 conf_threshold = st.slider("Confidence threshold", 0.0, 1.0, 0.25, 0.05)
 uploaded_file = st.file_uploader("Upload an MRI image", type=["jpg", "jpeg", "png"])
