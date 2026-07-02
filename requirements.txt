@@ -5,3 +5,4 @@ ultralytics
 pillow
 requests
 python-multipart
+opencv-python-headless
