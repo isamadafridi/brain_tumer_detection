@@ -34,8 +34,7 @@ brain_tumor_detection/
 ├── app.py                   # Streamlit UI that calls FastAPI (for Docker)
 ├── Dockerfile               # Runs FastAPI + Streamlit in one container
 ├── start.sh                 # Startup script used by Dockerfile
-├── requirements.txt         # Dependencies for Docker / FastAPI setup
-├── streamlit_requirements.txt  # Dependencies for Streamlit Cloud deploy
+├── requirements.txt         # Dependencies for Docker / FastAPI setup and Streamlit Cloud deploy
 └── README.md
 ```
 
