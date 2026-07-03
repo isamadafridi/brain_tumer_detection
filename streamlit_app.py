@@ -20,7 +20,7 @@ model = load_model()
 
 COLORS = {"negative": "red", "positive": "blue"}
 
-sensitivity = st.slider("Detection sensitivity", 0.0, 1.0, 0.75, 0.05)
+sensitivity = st.slider("Detection sensitivity", 0.0, 1.0) #,0.75, 0.05
 conf_threshold = round(1.0 - sensitivity, 2)  # high sensitivity = low conf threshold
 # st.caption(f"Confidence threshold: {conf_threshold} — slide right to detect more, left to detect less")
 uploaded_file = st.file_uploader("Upload an MRI image", type=["jpg", "jpeg", "png"])
